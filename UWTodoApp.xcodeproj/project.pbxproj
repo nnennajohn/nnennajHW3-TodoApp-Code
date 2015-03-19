@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6AC5D3F1A7892E800B6291F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AC5D3E1A7892E800B6291F /* AppDelegate.m */; };
+		C6AC5D411A7892E800B6291F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AC5D401A7892E800B6291F /* main.m */; };
+		C6AC5D441A7892E800B6291F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AC5D431A7892E800B6291F /* ViewController.m */; };
+		C6AC5D461A7892E800B6291F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6AC5D451A7892E800B6291F /* Images.xcassets */; };
+		C6AC5D491A7892E800B6291F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6AC5D471A7892E800B6291F /* Main.storyboard */; };
+		C6AC5D551A7892E800B6291F /* UWTodoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AC5D541A7892E800B6291F /* UWTodoAppTests.m */; };
+		C6AC5D621A78931F00B6291F /* TodoList.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AC5D5F1A78931F00B6291F /* TodoList.m */; };
+		C6AC5D631A78931F00B6291F /* TodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AC5D611A78931F00B6291F /* TodoItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6AC5D4F1A7892E800B6291F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6AC5D301A7892E700B6291F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6AC5D371A7892E800B6291F;
+			remoteInfo = UWTodoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6AC5D381A7892E800B6291F /* UWTodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UWTodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6AC5D3C1A7892E800B6291F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6AC5D3D1A7892E800B6291F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6AC5D3E1A7892E800B6291F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6AC5D401A7892E800B6291F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6AC5D421A7892E800B6291F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6AC5D431A7892E800B6291F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6AC5D451A7892E800B6291F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C6AC5D481A7892E800B6291F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6AC5D4E1A7892E800B6291F /* UWTodoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UWTodoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6AC5D531A7892E800B6291F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6AC5D541A7892E800B6291F /* UWTodoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWTodoAppTests.m; sourceTree = "<group>"; };
+		C6AC5D5E1A78931F00B6291F /* TodoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoList.h; sourceTree = "<group>"; };
+		C6AC5D5F1A78931F00B6291F /* TodoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoList.m; sourceTree = "<group>"; };
+		C6AC5D601A78931F00B6291F /* TodoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoItem.h; sourceTree = "<group>"; };
+		C6AC5D611A78931F00B6291F /* TodoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6AC5D351A7892E800B6291F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AC5D4B1A7892E800B6291F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6AC5D2F1A7892E700B6291F = {
+			isa = PBXGroup;
+			children = (
+				C6AC5D3A1A7892E800B6291F /* UWTodoApp */,
+				C6AC5D511A7892E800B6291F /* UWTodoAppTests */,
+				C6AC5D391A7892E800B6291F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6AC5D391A7892E800B6291F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6AC5D381A7892E800B6291F /* UWTodoApp.app */,
+				C6AC5D4E1A7892E800B6291F /* UWTodoAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6AC5D3A1A7892E800B6291F /* UWTodoApp */ = {
+			isa = PBXGroup;
+			children = (
+				C6AC5D421A7892E800B6291F /* ViewController.h */,
+				C6AC5D431A7892E800B6291F /* ViewController.m */,
+				C6AC5D641A78934400B6291F /* Model */,
+				C6AC5D651A78935600B6291F /* Base */,
+				C6AC5D3B1A7892E800B6291F /* Supporting Files */,
+			);
+			path = UWTodoApp;
+			sourceTree = "<group>";
+		};
+		C6AC5D3B1A7892E800B6291F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6AC5D3C1A7892E800B6291F /* Info.plist */,
+				C6AC5D401A7892E800B6291F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6AC5D511A7892E800B6291F /* UWTodoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6AC5D541A7892E800B6291F /* UWTodoAppTests.m */,
+				C6AC5D521A7892E800B6291F /* Supporting Files */,
+			);
+			path = UWTodoAppTests;
+			sourceTree = "<group>";
+		};
+		C6AC5D521A7892E800B6291F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6AC5D531A7892E800B6291F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6AC5D641A78934400B6291F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6AC5D5E1A78931F00B6291F /* TodoList.h */,
+				C6AC5D5F1A78931F00B6291F /* TodoList.m */,
+				C6AC5D601A78931F00B6291F /* TodoItem.h */,
+				C6AC5D611A78931F00B6291F /* TodoItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C6AC5D651A78935600B6291F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C6AC5D3D1A7892E800B6291F /* AppDelegate.h */,
+				C6AC5D3E1A7892E800B6291F /* AppDelegate.m */,
+				C6AC5D451A7892E800B6291F /* Images.xcassets */,
+				C6AC5D471A7892E800B6291F /* Main.storyboard */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6AC5D371A7892E800B6291F /* UWTodoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6AC5D581A7892E800B6291F /* Build configuration list for PBXNativeTarget "UWTodoApp" */;
+			buildPhases = (
+				C6AC5D341A7892E800B6291F /* Sources */,
+				C6AC5D351A7892E800B6291F /* Frameworks */,
+				C6AC5D361A7892E800B6291F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UWTodoApp;
+			productName = UWTodoApp;
+			productReference = C6AC5D381A7892E800B6291F /* UWTodoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6AC5D4D1A7892E800B6291F /* UWTodoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6AC5D5B1A7892E800B6291F /* Build configuration list for PBXNativeTarget "UWTodoAppTests" */;
+			buildPhases = (
+				C6AC5D4A1A7892E800B6291F /* Sources */,
+				C6AC5D4B1A7892E800B6291F /* Frameworks */,
+				C6AC5D4C1A7892E800B6291F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6AC5D501A7892E800B6291F /* PBXTargetDependency */,
+			);
+			name = UWTodoAppTests;
+			productName = UWTodoAppTests;
+			productReference = C6AC5D4E1A7892E800B6291F /* UWTodoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6AC5D301A7892E700B6291F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Martin Nash";
+				TargetAttributes = {
+					C6AC5D371A7892E800B6291F = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = ADJG9D9EQV;
+					};
+					C6AC5D4D1A7892E800B6291F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C6AC5D371A7892E800B6291F;
+					};
+				};
+			};
+			buildConfigurationList = C6AC5D331A7892E700B6291F /* Build configuration list for PBXProject "UWTodoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6AC5D2F1A7892E700B6291F;
+			productRefGroup = C6AC5D391A7892E800B6291F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6AC5D371A7892E800B6291F /* UWTodoApp */,
+				C6AC5D4D1A7892E800B6291F /* UWTodoAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6AC5D361A7892E800B6291F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AC5D461A7892E800B6291F /* Images.xcassets in Resources */,
+				C6AC5D491A7892E800B6291F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AC5D4C1A7892E800B6291F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6AC5D341A7892E800B6291F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AC5D441A7892E800B6291F /* ViewController.m in Sources */,
+				C6AC5D411A7892E800B6291F /* main.m in Sources */,
+				C6AC5D631A78931F00B6291F /* TodoItem.m in Sources */,
+				C6AC5D621A78931F00B6291F /* TodoList.m in Sources */,
+				C6AC5D3F1A7892E800B6291F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AC5D4A1A7892E800B6291F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AC5D551A7892E800B6291F /* UWTodoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6AC5D501A7892E800B6291F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6AC5D371A7892E800B6291F /* UWTodoApp */;
+			targetProxy = C6AC5D4F1A7892E800B6291F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6AC5D471A7892E800B6291F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6AC5D481A7892E800B6291F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6AC5D561A7892E800B6291F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C6AC5D571A7892E800B6291F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C6AC5D591A7892E800B6291F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UWTodoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		C6AC5D5A1A7892E800B6291F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UWTodoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		C6AC5D5C1A7892E800B6291F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UWTodoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UWTodoApp.app/Contents/MacOS/UWTodoApp";
+			};
+			name = Debug;
+		};
+		C6AC5D5D1A7892E800B6291F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UWTodoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UWTodoApp.app/Contents/MacOS/UWTodoApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6AC5D331A7892E700B6291F /* Build configuration list for PBXProject "UWTodoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6AC5D561A7892E800B6291F /* Debug */,
+				C6AC5D571A7892E800B6291F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6AC5D581A7892E800B6291F /* Build configuration list for PBXNativeTarget "UWTodoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6AC5D591A7892E800B6291F /* Debug */,
+				C6AC5D5A1A7892E800B6291F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6AC5D5B1A7892E800B6291F /* Build configuration list for PBXNativeTarget "UWTodoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6AC5D5C1A7892E800B6291F /* Debug */,
+				C6AC5D5D1A7892E800B6291F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6AC5D301A7892E700B6291F /* Project object */;
+}
